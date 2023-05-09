@@ -1,0 +1,41 @@
+
+ .input-field input:focus + label {
+    color: #311b92 !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid #311b92 !important;
+    box-shadow: 0 1px 0 0 #311b92 !important;
+  }
+
+  .input-field textarea:focus + label {
+    color: #311b92 !important;
+  }
+  /* label underline focus color */
+  .row .input-field textarea:focus {
+    border-bottom: 1px solid #311b92 !important;
+    box-shadow: 0 1px 0 0 #311b92 !important;
+  }
+
+  td, th
+  {
+    border:2px solid #7e57c2;  
+    margin-top:10px; 
+  }
+
+  th {
+    background-color: #b39ddb ;
+  }
+  table{
+    border-radius: 10px;
+  }
+
+  .contenedor{
+    padding: 2em !important;
+  }
+
+  .total{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 30px !important;
+  }
